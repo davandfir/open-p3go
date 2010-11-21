@@ -38,9 +38,11 @@ step2:
 
 step3:
 	edit C:\cygwin\home\Administrator\.bashrc and add "export PATH=/opt/mipseltools-nopic/bin:$PATH" to last of the bashrc file.
+
+step4:  open open-p3go\mtv_50\loaderPL3\PL3\Makefile  and edit PS3_COMPILERS to suit the path of ps3toolchain
 	
-step4:
-	restart cygwin and enter your open-p3go directory and 
+step5:
+	restart cygwin and enter your open-p3go directory
 	
 	#cd mtv_50/loader
 	#make clean
