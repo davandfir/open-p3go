@@ -22,7 +22,8 @@
 
 #define PAYLOAD_FW_DEPENDENT
 //#define PAYLOAD payload_dev
-#define PAYLOAD payload_no_unauth_syscall
+//#define PAYLOAD default_payload          ''change to this if it isn't compiling
+#define PAYLOAD payload_no_unauth_syscall  
 
 
 #if defined (FIRMWARE_3_41)
