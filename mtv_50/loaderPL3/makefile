@@ -21,7 +21,7 @@ include ./configure.mak
 
 MODULE_GENLDS := 0
 MOBILE_TVDIR := $(TOP)/mtv_50
-LOADER_DIR = $(MOBILE_TVDIR)/loaderPL3
+LOADER_DIR = ./
 TARGETS := $(LOADER_DIR)/target
 
 OSDIR    :=$(TOP)/src
